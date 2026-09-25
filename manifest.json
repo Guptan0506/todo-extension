@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Simple To-Do",
+  "version": "1.0.0",
+  "description": "A clean, minimal to-do list with due dates and notes, right in your toolbar.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "simple-todo@yourdomain.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
